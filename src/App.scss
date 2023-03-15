@@ -10,8 +10,16 @@
   a:link{
     color: black;
   }
+  span a img {
+    width: 30px;
+    height: 30px;
+  }
 }
 
+
+a{
+  display: inline;
+}
 tr h1 {
   text-align: center;
 }

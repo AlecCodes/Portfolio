@@ -21,6 +21,10 @@ function App() {
             <Link to="/Skills">Skills</Link>
             <Link onClick={dlResume}>Resume</Link>
             <Link to = "/Contact">Contact</Link>
+            <span>
+            <a><img src='https://cdn-icons-png.flaticon.com/512/174/174857.png'></img></a>
+            <a><img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png'></img></a>
+            </span>
           </td>
           <td></td>
           <td className='Body'><Outlet/></td>
