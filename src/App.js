@@ -32,8 +32,8 @@ function App() {
             ><img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png'></img></a>
             </span>
           </td>
-          <td></td>
           <td className='Body'><Outlet/></td>
+          <td width = '50px'></td>
         </tr>
         </tbody>
       </table>
