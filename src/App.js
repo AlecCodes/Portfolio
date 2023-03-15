@@ -6,8 +6,15 @@ import { Outlet } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <Outlet/>
+      <tbody>
+        <tr>Alec Hannaford</tr>
+        <tr>
+          <td>links</td>
+          <td>gap</td>
+          <td className='Body'><Outlet/></td>
+        </tr>
+      </tbody>
+
     </div>
   );
 }
