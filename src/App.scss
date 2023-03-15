@@ -1,5 +1,19 @@
-NavBar{
-  background-color:red;
+.Links{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: start;
+  height: 200px;
+  a:visited{
+    color:black;
+  }
+  a:link{
+    color: black;
+  }
+}
+
+tr h1 {
+  text-align: center;
 }
 
 .App {
