@@ -12,18 +12,24 @@ function App() {
         <tr>
           <td></td>
           <td></td>
-          <h1>Alec Hannaford</h1></tr>
+          <h1>alec hannaford</h1></tr>
         <tr>
           <td width='100px'></td>
           <td className='Links'>
-            <Link to="/AboutMe">About Me</Link>
-            <Link to ="">Projects</Link>
-            <Link to="/Skills">Skills</Link>
-            <Link onClick={dlResume}>Resume</Link>
-            <Link to = "/Contact">Contact</Link>
+            <Link to="/AboutMe">about me</Link>
+            <Link to ="">projects</Link>
+            <Link to="/Skills">skills</Link>
+            <Link onClick={dlResume}>resume</Link>
+            <Link to = "/Contact">contact</Link>
             <span>
-            <a><img src='https://cdn-icons-png.flaticon.com/512/174/174857.png'></img></a>
-            <a><img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png'></img></a>
+            <a 
+            href='https://www.linkedin.com/in/alec-hannaford/'
+            target = "_blank"
+            ><img src='https://cdn-icons-png.flaticon.com/512/174/174857.png'></img></a>
+            <a 
+            href='https://github.com/AlecCodes'
+            target = "_blank"
+            ><img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png'></img></a>
             </span>
           </td>
           <td></td>
