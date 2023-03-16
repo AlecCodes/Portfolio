@@ -11,7 +11,9 @@ function Index(props){
             >
                 <h3>{element.name}</h3>
                 <a href = {element.url}>Deployed Site</a>
-                <img src = {element.img}></img>
+                <div className='imgContainer'>
+                    <img src = {element.img}></img>
+                </div>
             </div>
         )
     })}
