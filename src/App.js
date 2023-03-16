@@ -12,14 +12,18 @@ function App() {
         <tr>
           <td></td>
           <td></td>
-          <h1>alec hannaford</h1></tr>
+          <td><div>alec hannaford</div></td>
+        </tr>
         <tr>
           <td width='100px'></td>
           <td className='Links'>
             <Link to="/AboutMe">about me</Link>
             <Link to ="">projects</Link>
             <Link to="/Skills">skills</Link>
-            <Link onClick={dlResume}>resume</Link>
+            <a 
+            href = "https://docs.google.com/document/d/1_XNrFfHQknI9V7kCpJt5JAXMfq8cJEaJeYNhISeBV4w/edit#heading=h.gjdgxs"
+            target = "_blank"
+            >resume</a>
             <Link to = "/Contact">contact</Link>
             <span>
             <a 
