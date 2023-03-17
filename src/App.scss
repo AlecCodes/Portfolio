@@ -1,10 +1,19 @@
+
 .project{
   width: 200px;
   height: 200px;
-
-  img {
-    width: 200px;
-  }
+  margin-bottom: 100px;
+}
+// .imgContainer{
+//   height: 300px;
+//   width: 300px;
+// }
+.imgContainer{
+  height: 50px;
+}
+.imgContainer img {
+  height: 200px;
+  object-fit:contain;
 }
 
 .Links{
@@ -13,20 +22,21 @@
   justify-content: space-around;
   text-align: start;
   height: 200px;
-  a{
-    font-size: 12px;
-  }
-
-  a:visited{
-    color:black;
-  }
-  a:link{
-    color: black;
-  }
   span a img {
     width: 30px;
     height: 30px;
   }
+}
+
+a{
+  font-size: 12px;
+}
+
+a:visited{
+  color:black;
+}
+a:link{
+  color: black;
 }
 
 .Links{

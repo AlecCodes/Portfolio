@@ -2,21 +2,27 @@
     {
         "url": "https://project1-aleccodes.vercel.app/",
         "name": "Mars Dashboard",
-        "img":"https://i.imgur.com/5xXTl3a.png"
+        "img":"https://i.imgur.com/hclVzUa.png",
+        "frontend":"https://github.com/AlecCodes/Project1"
     },
     {
         "url": "https://crm-53cf.onrender.com/",
         "name":"QuikCRM",
-        "img":"https://i.imgur.com/EcH5Xz4.png"
+        "img":"https://i.imgur.com/aBhiHAI.png",
+        "frontend":"https://github.com/AlecCodes/Project2---CRM-"
     },
     {
         "url": "https://rr-jwt.onrender.com",
         "name":"Hungr",
-        "img":"https://i.imgur.com/0xP6pQq.jpg"
+        "img":"https://i.imgur.com/F9sastX.png",
+        "frontend":"https://github.com/AlecCodes/Project3_rr",
+        "backend":"https://github.com/abethel912/restaurant-review-backend"
     },
     {
         "url":"https://master--beamish-fenglisu-d91ec9.netlify.app/",
         "name":"Run Diary",
-        "img":"https://i.imgur.com/KiXupPq.png"
+        "img":"https://i.imgur.com/GKEnv0J.png",
+        "frontend":"https://github.com/AlecCodes/Project4Frontend",
+        "backend":"https://github.com/AlecCodes/project4BackendAPI"
     }
 ]
