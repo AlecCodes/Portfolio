@@ -21,6 +21,7 @@ function Index(props){
                 <div className='imgContainer'>
                     <img src = {element.img} alt={element.name} className={element.name}></img>
                 </div>
+                <div className='description'>{element.description}</div>
             </div>
         )
     })}

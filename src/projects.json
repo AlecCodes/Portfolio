@@ -3,26 +3,30 @@
         "url": "https://project1-aleccodes.vercel.app/",
         "name": "Mars Dashboard",
         "img":"https://i.imgur.com/hclVzUa.png",
-        "frontend":"https://github.com/AlecCodes/Project1"
+        "frontend":"https://github.com/AlecCodes/Project1",
+        "description": "NASA had separate online dashboards for their Mars landers, making it difficult to view all landers at once. I aggregated meteorological information from all active landers into a single dashboard. Up-to-date data from each lander's JSON stream are downlinked and rendered to an interactive map UI, allowing users to select and view different landers' data. The web-app provides a centralized dashboard for all active Mars landers, simplifying access to real-time meteorological data and enabling more efficient research. Technologies: jQuery , AJAX , HTML , CSS , Vanilla JavaScript"
     },
     {
         "url": "https://crm-53cf.onrender.com/",
         "name":"QuikCRM",
         "img":"https://i.imgur.com/aBhiHAI.png",
-        "frontend":"https://github.com/AlecCodes/Project2---CRM-"
+        "frontend":"https://github.com/AlecCodes/Project2---CRM-",
+        "description": "Documenting records on CRMs my whole professional career has familiarized me with their flaws. A common problem is that customer correspondence slows down and gets neglected, so the customers are forgotten and fall between the cracks. I wanted a CRM with built-in guardrails to prevent this. My CRM Timestamps correspondence records and stores them as embedded documents for customers in the database. The result was a reactive frontend with session authentication which detected the records’ maturity and color coded them so they are more noticeable by the user. Technologies: React, MongoDB, Mongoose, express.js "
     },
     {
         "url": "https://rr-jwt.onrender.com",
         "name":"Hungr",
         "img":"https://i.imgur.com/F9sastX.png",
         "frontend":"https://github.com/AlecCodes/Project3_rr",
-        "backend":"https://github.com/abethel912/restaurant-review-backend"
+        "backend":"https://github.com/abethel912/restaurant-review-backend",
+        "description":"Restaurant review sites tend to have a bloated, cluttered UI. I worked on a team to build a full-stack restaurant review app with a focus on keeping the user’s reviews easily accessible. End result was a reactive CRUD web app which is fun and easy to use. JWT authentication allows the user to view the specific records they created. Technologies: React, MongoDB, Mongoose, express.js"
     },
     {
         "url":"https://master--beamish-fenglisu-d91ec9.netlify.app/",
         "name":"Run Diary",
         "img":"https://i.imgur.com/GKEnv0J.png",
         "frontend":"https://github.com/AlecCodes/Project4Frontend",
-        "backend":"https://github.com/AlecCodes/project4BackendAPI"
+        "backend":"https://github.com/AlecCodes/project4BackendAPI",
+        "description":"Developed a solution for the running community that helped track their runs, times, and distances. Built a RESTful Django microservice to perform CRUD operations on a Postgres database, while the frontend handled sorting the data and displaying it upon hitting various routes. Jog Diary allows the user to track their runs and tells them when they get a new personal record! Technologies: Django, PostgreSQL, React, Netlify"
     }
 ]

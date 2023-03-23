@@ -4,7 +4,6 @@ import NavBar from './Components/Nav'
 import { Outlet, Link } from 'react-router-dom';
 
 function App() {
-  const dlResume = (e) => console.log('resume download')
   return (
     <div className="App">
       <table>
