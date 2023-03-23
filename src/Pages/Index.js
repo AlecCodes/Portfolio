@@ -10,9 +10,16 @@ function Index(props){
             className="project"
             >
                 <h3>{element.name}</h3>
-                <a href = {element.url}>Deployed Site</a> • <a href={element.frontend}>GitHub Repo</a>
+                <a href = {element.url}
+                target = "_blank"
+                rel="noreferrer"
+                >Deployed Site</a> • 
+                <a href={element.frontend}
+                target = "_blank"
+                rel="noreferrer"
+                >GitHub Repo</a>
                 <div className='imgContainer'>
-                    <img src = {element.img} className={element.name}></img>
+                    <img src = {element.img} alt={element.name} className={element.name}></img>
                 </div>
             </div>
         )
