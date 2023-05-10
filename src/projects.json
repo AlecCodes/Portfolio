@@ -1,5 +1,14 @@
 [
     {
+        "url": "https://carbdiary.onrender.com/",
+        "name": "Carb Diary",
+        "img":"https://imgur.com/7MP1Ov3.png",
+        "backend":"https://github.com/AlecCodes/postgresSpringBoot",
+        "frontend":"https://github.com/AlecCodes/Project4Frontend",
+        "description": "Leveraged my professional experience in the diabetes industry to analyze and address the challenges diabetics face managing carb intake, by creating a diet app. Built a SpringBoot app backend to store user’s carb data on a remote server and perform full CRUD operations. Deployed a scalable app with a low memory footprint, and a sleek frontend from which the user can select auto suggested nutrient records from the Nutritionix database."
+
+    },
+    {
         "url": "https://project1-aleccodes.vercel.app/",
         "name": "Mars Dashboard",
         "img":"https://i.imgur.com/hclVzUa.png",
