@@ -15,10 +15,14 @@ p span{
   align-items: center;
 }
 
+
 .project{
   width: 200px;
   height: 200px;
   margin-bottom: 330px;
+  .links{
+    width: 200%;
+  }
   .description{
     width: 200%;
     margin-top: 10px; /* Add some space between the image and the description */

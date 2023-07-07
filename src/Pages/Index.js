@@ -19,11 +19,11 @@ function Index(props){
                     target = "_blank"
                     rel="noreferrer"
                     >{(element.backend)?"Frontend Repo":"GitHub Repo"}</a>
+                    <a href={element.backend}
+                    target="_blank"
+                    rel='noreferrer'
+                    >{(element.backend) && " | Backend Repo"}</a>                  
                 </div>
-                <a href={element.backend}
-                target="_blank"
-                rel='noreferrer'
-                >{(element.backend) && " | Backend Repo"}</a>
                 <div className='imgContainer'>
                     <img src = {element.img} alt={element.name} className={element.name}></img>
                 </div>
