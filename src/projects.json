@@ -31,7 +31,7 @@
         "description":"Restaurant review sites tend to have a bloated, cluttered UI. I worked on a team to build a full-stack restaurant review app with a focus on keeping the user’s reviews easily accessible. End result was a reactive CRUD web app which is fun and easy to use. JWT authentication allows the user to view the specific records they created. Technologies: React, MongoDB, Mongoose, express.js"
     },
     {
-        "url":"https://master--beamish-fenglisu-d91ec9.netlify.app/",
+        "url":"https://runappproject4.onrender.com/",
         "name":"Run Diary",
         "img":"https://i.imgur.com/GKEnv0J.png",
         "frontend":"https://github.com/AlecCodes/Project4Frontend",
