@@ -10,14 +10,20 @@ function Index(props){
             className="project"
             >
                 <h3>{element.name}</h3>
-                <a href = {element.url}
-                target = "_blank"
-                rel="noreferrer"
-                >Deployed Site</a> • 
-                <a href={element.frontend}
-                target = "_blank"
-                rel="noreferrer"
-                >GitHub Repo</a>
+                <div className='links'>
+                    <a href = {element.url}
+                    target = "_blank"
+                    rel="noreferrer"
+                    >Deployed Site</a> •  
+                    <a href={element.frontend}
+                    target = "_blank"
+                    rel="noreferrer"
+                    >{(element.backend)?"Frontend Repo":"GitHub Repo"}</a>
+                </div>
+                <a href={element.backend}
+                target="_blank"
+                rel='noreferrer'
+                >{(element.backend) && " | Backend Repo"}</a>
                 <div className='imgContainer'>
                     <img src = {element.img} alt={element.name} className={element.name}></img>
                 </div>
